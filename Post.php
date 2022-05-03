@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 namespace App\Models;
 
@@ -16,3 +16,4 @@ class Post extends Model
         return $this->belongsTo(Category::class);
     }
 }
+?>
